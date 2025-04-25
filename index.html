@@ -9,66 +9,93 @@
   <title>Frontend Mentor | Product list with cart</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer ></script>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="reset.css">
   <style>
+    
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Desserts
+  <main>
+    <h1>Desserts</h1>
+    <div class="main-content">
 
-  Waffle with Berries
-  Waffle
-  6.50
-  Add to Cart
+      <section id="dessert-grid">
 
-  Vanilla Bean Crème Brûlée
-  Crème Brûlée
-  7.00
-  Add to Cart
+       
+       
+        
 
-  Macaron Mix of Five
-  Macaron
-  8.00
-  Add to Cart
+      </section>
+      <div class="cart-container">
+        <h2>Your Cart <span class="quantity"></span></h2>
+        <section id="cart" aria-label="aside">
 
-  Classic Tiramisu
-  Tiramisu
-  5.50
-  Add to Cart
+          
+          <div class="empty-image-container">
+            <img class="empty-cart"src="assets/images/illustration-empty-cart.svg" alt="">
 
-  Pistachio Baklava
-  Baklava
-  4.00
-  Add to Cart
+          </div>
+          
+         <p class="placceholder-text">Your added items will appear here</p>
+         
+         
+  
+        </section>
+          <div class="total">
+            <p>order total</p>
+            <span class="total-price">total</span>
 
-  Lemon Meringue Pie
-  Pie
-  5.00
-  Add to Cart
+          </div>
+          <div class="carbon-neutral">
+            <img src="assets/images/icon-carbon-neutral.svg" alt="">
+            <p>This is a <b>carbon neutral</b> delivery</p>
+          </div>
+          
+          <button class="confirm-order">confirm order</button>
+          </div>`
+        
 
-  Red Velvet Cake
-  Cake
-  4.50
-  Add to Cart
+      </div>
+      
 
-  Salted Caramel Brownie
-  Brownie
-  4.50
-  Add to Cart
+    </div>
+   
 
-  Vanilla Panna Cotta
-  Panna Cotta
-  6.50
-  Add to Cart
+  </main>
+ 
+  <aside>
+    <img class="order-confirmed"src="assets/images/icon-order-confirmed.svg" alt="">
+    <h5>Order confirmed</h5>
+    <p class="enjoy">we hope you enjoy your food</p>
+    <div class="inside-aside">
 
-  Your Cart (<!-- Quantity -->)
-  Your added items will appear here
+    </div>
+    <div class="total">
+      <p>Order total:</p>
+      <span class="total-price final-price">total</span>
+
+    </div>
+    <button class="confirm-order final-button"> start new order </button>
+    
+  </aside>
+
+
+  
+ 
+ 
+
+ 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/wawawoh">wawowah</a>.
   </div>
 </body>
 </html>
+
